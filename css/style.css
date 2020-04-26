@@ -1,0 +1,19 @@
+body {
+  margin: 0; }
+
+.header {
+  display: inline-block;
+  text-align: left;
+  position: relative; }
+  .header .content-1 {
+    font-family: "Arial", sans-serif;
+    font-size: larger;
+    width: 500px;
+    position: absolute;
+    top: 3%;
+    left: 15%;
+    color: whitesmoke; }
+    .header .content-1 h3 {
+      font-size: xx-large; }
+    .header .content-1 p {
+      display: block; }
