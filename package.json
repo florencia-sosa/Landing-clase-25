@@ -1,0 +1,23 @@
+{
+  "name": "landing-clase-25",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass scss -o css --watch --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sofialay/Landing-clase-25.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sofialay/Landing-clase-25/issues"
+  },
+  "homepage": "https://github.com/Sofialay/Landing-clase-25#readme",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
