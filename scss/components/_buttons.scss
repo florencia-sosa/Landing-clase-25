@@ -1,0 +1,90 @@
+@import "../abstract/variables";
+@import "../abstract/mixins";
+
+
+.button {
+    border-radius: $border-radius;
+    box-sizing: border-box;
+    color: $white;
+    display: inline-block;
+    font-family: $font;
+    margin: 10px;
+    padding: 0 15px;
+
+    //Sizes Buttons
+
+    &.button-s {
+        @include button-s;
+    }
+    &.button-m {
+        @include button-m;
+    }
+    &.button-l {
+        @include button-l;
+    }
+
+    //Colors buttons
+
+    &.blue {
+        border: 0.5px solid $blue;
+        background-color: $blue;
+    }
+    &.green {
+        border: 0.5px solid $green;
+        background-color: $green;
+    }
+    &.orange {
+        border: 0.5px solid $orange;
+        background-color: $orange;
+    }
+
+    &:hover {
+        background-color: transparent;
+        cursor: pointer;
+        
+    &.green:hover {
+        color: $green;
+    }
+    &.blue:hover {
+        color: $blue;
+    }
+    &.orange:hover {
+        color: $orange;
+    }
+    }  
+} 
+
+.button-login {
+    color: $blue;
+    border: none;
+    background: transparent;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: $font;
+    transition: border 4s ease-in, padding 0.4s easy-in;
+
+&:hover {
+    border: 2px solid $blue;
+    cursor: pointer;
+    padding: $padding-button-login;
+}
+}
+
+.button-submit {
+    background-color: $blue;
+    border: none;
+    border-radius: 3px;
+    color: $white;
+    display: inline-block;
+    font-family: $font;
+    height: $height-button-submit;
+    transition: box-shadow 0,5s linear;
+
+&:hover {
+    cursor: pointer;
+}
+&:active {
+    box-shadow: inset 0 0 1px darken($blue, 90);
+    
+}
+} 

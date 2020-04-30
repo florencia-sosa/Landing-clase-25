@@ -1,0 +1,20 @@
+@mixin button-s {
+    font-size: $font-size-button-s;
+    font-weight: bolder;
+    height: $height-button-s;
+    padding: $padding-button-s;
+}
+
+@mixin button-m {
+    font-size: $font-size-button-m;
+    height: $height-button-m;
+    padding: $padding-button-m;
+    
+}
+
+@mixin button-l {
+    font-size: $font-size-button-l;
+    height:$height-button-l;
+    padding: $padding-button-l;
+}
+
