@@ -1,19 +1,33 @@
 body {
   margin: 0; }
 
-.header {
+.hero {
   display: inline-block;
   text-align: left;
   position: relative; }
-  .header .content-1 {
+  .hero img {
+    width: 100%; }
+  .hero .content-1, .hero .content-2, .hero .content-3 {
     font-family: "Arial", sans-serif;
     font-size: larger;
     width: 500px;
-    position: absolute;
-    top: 3%;
-    left: 15%;
     color: whitesmoke; }
-    .header .content-1 h3 {
+    .hero .content-1 h3, .hero .content-2 h3, .hero .content-3 h3 {
       font-size: xx-large; }
-    .header .content-1 p {
+    .hero .content-1 p, .hero .content-2 p, .hero .content-3 p {
       display: block; }
+
+.hero .content-1 {
+  position: absolute;
+  top: 3%;
+  left: 15%; }
+
+.hero .content-2 {
+  position: absolute;
+  top: 36%;
+  left: 15%; }
+
+.hero .content-3 {
+  position: absolute;
+  top: 70%;
+  left: 15%; }
