@@ -10,8 +10,8 @@
 
 h4 {
     font-size: $font-size-card-xl;
-    font-family: $font-family-card;
-    color: $color-card-title;
+    font-family: $font;
+    color: $black;
 }
 
 p {
@@ -45,7 +45,7 @@ img {
 //     p {
 //         display: block;
 //         font-size: $font-size-card-normal;
-//         font-family: $font-family-card;
+//         font-family: $font;
 //         color: $color-card-paragraph;
 //     }
 
@@ -78,8 +78,8 @@ img {
     p {
         display: block;
         font-size: $font-size-card-normal;
-        font-family: $font-family-card;
-        color: $color-card-paragraph;
+        font-family: $font;
+        color: $grey;
         height: 46.76px;
         width: 281.71px;
     }
