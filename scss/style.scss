@@ -11,6 +11,17 @@ body {
     margin: 0;
 }
 
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.w-100{
+    width: 100%;
+}
 .header {
     display: inline-block;
     text-align: left;
