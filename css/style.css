@@ -1,7 +1,78 @@
 body {
   margin: 0; }
 
+<<<<<<< HEAD
 .hero {
+=======
+.button {
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px;
+  padding: 0 15px; }
+  .button.button-s {
+    font-size: 11px;
+    font-weight: bolder;
+    height: 25px;
+    padding: 0 15px; }
+  .button.button-m {
+    font-size: 13px;
+    height: 40px;
+    padding: 0 30px; }
+  .button.button-l {
+    font-size: 23px;
+    height: 50px;
+    padding: 0 50px; }
+  .button.blue {
+    border: 0.5px solid #01b0fe;
+    background-color: #01b0fe; }
+  .button.green {
+    border: 0.5px solid #99ce45;
+    background-color: #99ce45; }
+  .button.orange {
+    border: 0.5px solid #fe8f4f;
+    background-color: #fe8f4f; }
+  .button:hover {
+    background-color: transparent;
+    cursor: pointer; }
+    .button:hover.green:hover {
+      color: #99ce45; }
+    .button:hover.blue:hover {
+      color: #01b0fe; }
+    .button:hover.orange:hover {
+      color: #fe8f4f; }
+
+.button-login {
+  color: #01b0fe;
+  border: none;
+  background: transparent;
+  border-radius: 5px;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  transition: border 4s ease-in, padding 0.4s easy-in; }
+  .button-login:hover {
+    border: 2px solid #01b0fe;
+    cursor: pointer;
+    padding: 0 20px; }
+
+.button-submit {
+  background-color: #01b0fe;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  height: 30px;
+  transition: box-shadow 0,5s linear; }
+  .button-submit:hover {
+    cursor: pointer; }
+  .button-submit:active {
+    box-shadow: inset 0 0 1px black; }
+
+.header {
+>>>>>>> 6a9358586788dcbd5262d356628f823dba354a34
   display: inline-block;
   text-align: left;
   position: relative; }
@@ -17,6 +88,7 @@ body {
     .hero .content-1 p, .hero .content-2 p, .hero .content-3 p {
       display: block; }
 
+<<<<<<< HEAD
 .hero .content-1 {
   position: absolute;
   top: 3%;
@@ -31,3 +103,5 @@ body {
   position: absolute;
   top: 70%;
   left: 15%; }
+=======
+>>>>>>> 6a9358586788dcbd5262d356628f823dba354a34
