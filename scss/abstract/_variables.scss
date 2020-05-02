@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 /*Colors and pading*/
     $white: white;
     $black: black;
@@ -11,3 +12,59 @@
     $menu-hover: 22px;
     $menu-font-normal:  'Montserrat', sans-serif;
     $menu-font-hover:  'Montserrat', sans-serif;
+=======
+//Fonts
+
+$font: 'Montserrat', sans-serif;
+
+
+//Colors
+
+$blue: #01b0fe;
+$green: #99ce45;
+$orange: #fe8f4f;
+$white: #ffffff;
+$black: #3e4e5c;
+$grey: #8e9ea9;
+
+//Buttons
+
+    //Font-size
+
+    $font-size-button-s: 11px;
+    $font-size-button-m: 13px;
+    $font-size-button-l: 23px;
+
+
+    //Heights
+
+    $height-button-s: 25px;
+    $height-button-m: 40px;
+    $height-button-l: 50px;
+    $height-button-login: 30px;
+    $height-button-submit: 30px;
+
+    //Border
+
+    $border-radius: 15px;
+
+
+    //Paddings
+
+    $padding-button-login: 0 20px;
+    $padding-button-s: 0 15px;
+    $padding-button-m: 0 30px;
+    $padding-button-l: 0 50px;
+    $padding-button-submit: 30px;
+
+// Fonts 
+$font-montserrat: 'Montserrat', sans-serif;
+$font-arial: 'Arial', sans-serif;
+$font-helvetica: 'Helvetica', sans-serif;
+$font-tahoma: 'Tahoma', sans-serif;
+$font-veredana: 'Verdana', sans-serif;
+
+//Colores
+$verde: #99ce45;
+$azul: #01b0fe;
+>>>>>>> master
