@@ -4,47 +4,4 @@
 @import "./Layout/footer";
 @import "./Layout/header";
 @import "./Layout/hero";
-@import "./Layout/main";
-
-body {
-    margin: 0;
-}
-
-.hero {
-    display: inline-block;
-    text-align: left;
-    position: relative;
-    img {
-        width: 100%;
-    }
-    .content-1, .content-2, .content-3{
-        font-family: $font-arial;
-        font-size: larger;
-        width: 500px;
-        color: whitesmoke;
-        h3{
-            font-size: xx-large;
-        }
-        p {
-            display: block;
-        }
-    }
-    .content-1 {
-        position: absolute;
-        top: 3%;
-        left: 15%;
-    }
-    
-    .content-2 {
-        position: absolute;
-        top: 36%;
-        left: 15%;
-    }
-    
-    .content-3 {
-        position: absolute;
-        top: 70%;
-        left: 15%
-    
-    }
-}
+@import "./Layout/slider-2";
