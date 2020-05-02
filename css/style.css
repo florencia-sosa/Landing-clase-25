@@ -1,3 +1,8 @@
+
+body {
+  margin: 0; }
+
+
 .button {
   border-radius: 15px;
   box-sizing: border-box;
@@ -64,6 +69,68 @@
     cursor: pointer; }
   .button-submit:active {
     box-shadow: inset 0 0 1px black; }
+
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 75px; }
+
+.logo {
+  width: 150px;
+  margin: 20px 0;
+  padding: 0 40px; }
+
+.botones {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.uno {
+  margin: 0 50px; }
+
+.fa-user-circle {
+  font-size: 18px; }
+
+.button {
+  font-weight: 600; }
+
+.menu-button {
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  border: none;
+  background-color: transparent; }
+  .menu-button .fa-hamburger {
+    font-size: 30px;
+    color: #01b0fe;
+    display: inline-block; }
+
+#input-menu:checked ~ .botones {
+  display: flex;
+  position: absolute;
+  top: 75px; }
+
+@media (min-width: 768px) {
+  .botones {
+    display: flex;
+    justify-content: flex-end; }
+  .menu-button {
+    display: none; }
+  .input-menu {
+    display: none; } }
+
+#input-menu {
+  display: none; }
+
+
 
 .hero {
   font-family: "Arial", sans-serif;
@@ -140,3 +207,4 @@
     .slider-2 .content-2 .p1 {
       text-transform: none;
       font-size: x-large; } }
+
