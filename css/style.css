@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*Colors and pading*/
 /*Fonts and styles*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
@@ -73,7 +73,7 @@ main {
       border-bottom: none;
       border-left: 0,2px;
       border-right: 0,2px; } }
-=======
+
 body {
   margin: 0; }
 
@@ -143,35 +143,3 @@ body {
     cursor: pointer; }
   .button-submit:active {
     box-shadow: inset 0 0 1px black; }
-
-.header {
-  display: inline-block;
-  text-align: left;
-  position: relative; }
-  .hero img {
-    width: 100%; }
-  .hero .content-1, .hero .content-2, .hero .content-3 {
-    font-family: "Arial", sans-serif;
-    font-size: larger;
-    width: 500px;
-    color: whitesmoke; }
-    .hero .content-1 h3, .hero .content-2 h3, .hero .content-3 h3 {
-      font-size: xx-large; }
-    .hero .content-1 p, .hero .content-2 p, .hero .content-3 p {
-      display: block; }
-
-.hero .content-1 {
-  position: absolute;
-  top: -1%;
-  left: 5%; }
-
-.hero .content-2 {
-  position: absolute;
-  top: 33%;
-  left: 5%; }
-
-.hero .content-3 {
-  position: absolute;
-  top: 70%;
-  left: 5%; }
->>>>>>> master
