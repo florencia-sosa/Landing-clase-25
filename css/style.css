@@ -1,9 +1,8 @@
+
 body {
   margin: 0; }
 
-<<<<<<< HEAD
-.hero {
-=======
+
 .button {
   border-radius: 15px;
   box-sizing: border-box;
@@ -71,37 +70,63 @@ body {
   .button-submit:active {
     box-shadow: inset 0 0 1px black; }
 
-.header {
->>>>>>> 6a9358586788dcbd5262d356628f823dba354a34
-  display: inline-block;
-  text-align: left;
-  position: relative; }
-  .hero img {
-    width: 100%; }
-  .hero .content-1, .hero .content-2, .hero .content-3 {
-    font-family: "Arial", sans-serif;
-    font-size: larger;
-    width: 500px;
-    color: whitesmoke; }
-    .hero .content-1 h3, .hero .content-2 h3, .hero .content-3 h3 {
-      font-size: xx-large; }
-    .hero .content-1 p, .hero .content-2 p, .hero .content-3 p {
-      display: block; }
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 75px; }
 
-<<<<<<< HEAD
-.hero .content-1 {
-  position: absolute;
-  top: 3%;
-  left: 15%; }
+.logo {
+  width: 150px;
+  margin: 20px 0;
+  padding: 0 40px; }
 
-.hero .content-2 {
-  position: absolute;
-  top: 36%;
-  left: 15%; }
+.botones {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%; }
 
-.hero .content-3 {
+.uno {
+  margin: 0 50px; }
+
+.fa-user-circle {
+  font-size: 18px; }
+
+.button {
+  font-weight: 600; }
+
+.menu-button {
   position: absolute;
-  top: 70%;
-  left: 15%; }
-=======
->>>>>>> 6a9358586788dcbd5262d356628f823dba354a34
+  top: 25px;
+  right: 50px;
+  border: none;
+  background-color: transparent; }
+  .menu-button .fa-hamburger {
+    font-size: 30px;
+    color: #01b0fe;
+    display: inline-block; }
+
+#input-menu:checked ~ .botones {
+  display: flex;
+  position: absolute;
+  top: 75px; }
+
+@media (min-width: 768px) {
+  .botones {
+    display: flex;
+    justify-content: flex-end; }
+  .menu-button {
+    display: none; }
+  .input-menu {
+    display: none; } }
+
+#input-menu {
+  display: none; }
+
+
