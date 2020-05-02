@@ -10,24 +10,3 @@ body {
     margin: 0;
 }
 
-.header {
-    display: inline-block;
-    text-align: left;
-    position: relative;
-    .content-1{
-      font-family: $font-arial;
-      font-size: larger;
-      width: 500px;
-      position: absolute;
-      top: 3%;
-      left: 15%;
-      color: whitesmoke;
-      h3{
-        font-size: xx-large;
-    }
-      p {
-        display: block;
-    }
-    }
-}
-
