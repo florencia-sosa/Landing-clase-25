@@ -70,6 +70,7 @@ body {
   .button-submit:active {
     box-shadow: inset 0 0 1px black; }
 
+
 header {
   background-color: white;
   display: flex;
@@ -129,4 +130,81 @@ header {
 #input-menu {
   display: none; }
 
+
+
+.hero {
+  font-family: "Arial", sans-serif;
+  position: relative; }
+  .hero .content-1 {
+    width: 550px; }
+  @media (min-width: 375px) {
+    .hero img {
+      width: 100%; }
+    .hero .content-1 {
+      position: absolute;
+      top: -6%;
+      left: 2%;
+      color: whitesmoke; }
+      .hero .content-1 p {
+        display: none; } }
+  @media (min-width: 768px) {
+    .hero .content-1 {
+      position: absolute;
+      top: 8%;
+      left: 12%;
+      color: whitesmoke; }
+      .hero .content-1 p {
+        display: block; } }
+  @media (min-width: 1152px) {
+    .hero .content-1 h3 {
+      font-size: 40px;
+      text-align: left;
+      font-weight: 400;
+      color: whitesmoke; }
+    .hero .content-1 p {
+      font-size: 20px;
+      display: block;
+      color: whitesmoke; } }
+
+.slider-2 {
+  font-family: "Arial", sans-serif;
+  position: relative; }
+  .slider-2 .content-2 {
+    width: 550px; }
+  @media (min-width: 375px) {
+    .slider-2 img {
+      width: 100%; }
+    .slider-2 .content-2 {
+      position: absolute;
+      top: -6%;
+      left: 2%;
+      color: whitesmoke;
+      text-transform: uppercase; }
+    .slider-2 .content-2 .p1 {
+      text-transform: none; }
+    .slider-2 .content-2 h3 {
+      color: #99ce45; } }
+  @media (min-width: 768px) {
+    .slider-2 .content-2 {
+      position: absolute;
+      top: 8%;
+      left: 12%;
+      color: whitesmoke; }
+      .slider-2 .content-2 p {
+        display: block; } }
+  @media (min-width: 1152px) {
+    .slider-2 .content-2 h3 {
+      font-size: 15px;
+      text-align: left;
+      font-weight: 400;
+      color: #99ce45;
+      text-transform: uppercase; }
+    .slider-2 .content-2 p {
+      font-size: 20px;
+      display: block;
+      color: whitesmoke;
+      text-transform: uppercase; }
+    .slider-2 .content-2 .p1 {
+      text-transform: none;
+      font-size: x-large; } }
 

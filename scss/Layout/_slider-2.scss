@@ -1,27 +1,31 @@
-.hero {
+.slider-2 {
     font-family: $font-arial;
     position: relative;
 
-    .content-1 {
+    .content-2 {
         width: 550px;
     }
     
 @media (min-width: 375px){
     img{  
         width: 100%;}
-    .content-1{
+    .content-2{
         position: absolute;
         top: -6%;
         left: 2%;
         color: whitesmoke;
-    p {
-        display: none;
-            }
+        text-transform: uppercase;
+    }
+    .content-2 .p1 {
+        text-transform: none;
+}
+    .content-2 h3 {
+        color: $verde;
     }
 }
 
 @media (min-width: 768px) {
-.content-1 {
+.content-2 {
 position: absolute;
 top: 8%;
 left: 12%;
@@ -33,16 +37,22 @@ p {
 }
 
 @media (min-width: 1152px) {
-    .content-1  h3{
-    font-size: 40px; 
+    .content-2  h3{
+    font-size: 15px; 
     text-align: left;
     font-weight: 400;
-    color: whitesmoke;
+    color: $verde;
+    text-transform: uppercase;
 }
-    .content-1 p {
+    .content-2 p {
         font-size: 20px;
         display: block;
         color: whitesmoke;
-     }  
-}
+        text-transform: uppercase;
+        }
+    .content-2 .p1 {
+        text-transform: none;
+        font-size: x-large;
+    }
+}  
 }
