@@ -9,43 +9,66 @@ main {
 
 .menu {
   display: flex;
-  width: 100%;
-  height: 50px;
-  padding: 20px 0;
-  background-color: #01b0fe; }
+  width: 100%; }
   .menu nav {
-    width: 100%; }
-    .menu nav ul {
-      display: flex;
-      justify-content: center;
-      align-content: space-around;
-      width: 100%;
+    display: flex;
+    height: auto;
+    padding: 20px 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: space-around;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    background-color: #01b0fe; }
+    .menu nav a {
+      cursor: pointer;
+      padding: 20px;
+      border: 0 solid #0097db;
+      border-width: 0 0.2px;
+      transition: #0097db 0.5s, #01b0fe 0.1s;
       text-align: center;
-      margin: 0px; }
-      .menu nav ul li {
-        cursor: pointer;
-        list-style: none;
-        padding: 20px;
-        border: 0 solid #0097db;
-        border-width: 0 1px;
-        line-height: 10pxgit;
-        transition: #0097db 0.5s, #01b0fe 0.1s; }
-        .menu nav ul li:first-child {
-          border-left: 0px; }
-        .menu nav ul li:last-child {
-          border-right: 0px; }
-        .menu nav ul li:hover {
-          border-color: #01b0fe;
-          border-width: 0px; }
-        .menu nav ul li a {
-          text-align: center;
-          text-decoration: none;
-          color: white;
-          font-family: "Montserrat", sans-serif;
-          font-size: 18px;
-          text-transform: uppercase; }
-          .menu nav ul li a:hover {
-            font-family: "Montserrat", sans-serif;
-            font-size: 22px;
-            color: black;
-            text-transform: none; }
+      text-decoration: none;
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      text-transform: uppercase; }
+      .menu nav a:first-child {
+        border-left: 0px; }
+      .menu nav a:last-child {
+        border-right: 0px; }
+      .menu nav a:hover {
+        border-color: #01b0fe;
+        font-family: "Montserrat", sans-serif;
+        font-size: 22px;
+        color: black;
+        text-transform: none;
+        transition: ease-in-out 0,2s; }
+      .menu nav a:active {
+        color: white;
+        border: none; }
+
+/* Breakpoint de mobile 1 */
+.menu {
+  width: 100%;
+  display: flex; }
+  .menu nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; }
+    .menu nav a {
+      border-bottom: solid 1px #0097db;
+      border-left: 0px;
+      border-right: 0px; }
+      .menu nav a:last-child {
+        border-bottom: 0px; }
+
+/* Breakpoint de tablet */
+@media (min-width: 768px) {
+  .menu nav {
+    display: inline-block; }
+    .menu nav a {
+      border: 0 solid #0097db;
+      border-bottom: none;
+      border-left: 0,2px;
+      border-right: 0,2px; } }
